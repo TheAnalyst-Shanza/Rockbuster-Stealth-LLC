@@ -6,21 +6,21 @@ Where are Rockbuster’s customers located?
 Which countries have the highest customer lifetime value?
 What factors drive rental behavior and revenue patterns?
 
-# 📊 Project Objectives
+## 📊 Project Objectives
 
 Build queries to explore Rockbuster’s database.
 Create customer and revenue segmentation analysis.
 Provide insights to guide the company’s online strategy.
 Present findings to business stakeholders in a clear, visual format.
 
-# 🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 SQL (PostgreSQL) – querying and data extraction
 Tableau Public – visualization & dashboarding
 Excel – supporting analysis & data outputs
 PowerPoint / Google Slides – business presentation
 
-# 🚀 Key Deliverables
+## 🚀 Key Deliverables
 
 SQL query scripts with business-driven insights.
 Customer segmentation and revenue analysis.
