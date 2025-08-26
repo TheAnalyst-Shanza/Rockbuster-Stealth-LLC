@@ -1,0 +1,31 @@
+# SQL query to calculate the average amount paid by the Top 5 customers
+
+SELECT AVG (total_amount_paid) AS avg_amount_paid_top_five_customers
+FROM
+(SELECT SUM (pmt. amount) AS total_amount_paid
+FROM payment AS pmt
+INNER JOIN customer AS cust1 ON pmt. customer_id = cust1.customer_id
+INNER JOIN address AS addr1 ON cust1.address_id = addr1.address_id
+INNER JOIN city AS ct1 ON addr1.city_id = ct1.city_id
+INNER JOIN country AS cntry1 ON ct1.country_id = cntry1.country_id
+WHERE ct1.city IN
+(SELECT ct2.city
+FROM customer AS cust2
+INNER JOIN address AS addr2 ON cust2.address_id = addr2.address_id
+INNER JOIN city AS ct2 ON addr2.city_id = ct2.city_id
+INNER JOIN country AS cntry2 ON ct2.country_id = cntry2.country_id
+WHERE cntry2.country IN
+(SELECT cntry3.country
+FROM customer AS cust3
+INNER JOIN address AS addr3 ON cust3.address_id = addr3.address_id
+INNER JOIN city AS ct3 ON addr3.city_id = ct3.city_id
+INNER JOIN country AS cntry3 ON ct3.country_id = cntry3.country_id
+GROUP BY cntry3.country
+ORDER BY COUNT (cust3.customer_id) DESC
+LIMIT 10)
+GROUP BY ct2.city
+ORDER BY COUNT (cust2.customer_id) DESC
+LIMIT 10)
+GROUP BY cust1.customer_id
+ORDER BY total_amount_paid DESC
+LIMIT 5) AS average;
