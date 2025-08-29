@@ -35,5 +35,10 @@ Customer segmentation and revenue analysis.
 Data dictionary and technical documentation.
 
 Interactive Tableau dashboards.
+
 Final presentation summarizing recommendations for Rockbuster’s online strategy.
+
+## Link
+Presenting ROCKBUSTER’S  SQL results by (SHANZA KHALID)
+
 
