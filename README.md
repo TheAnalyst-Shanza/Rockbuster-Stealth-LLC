@@ -40,5 +40,3 @@ Final presentation summarizing recommendations for Rockbuster’s online strateg
 
 ## Link
 https://public.tableau.com/app/profile/shanza.khalid/viz/ROCKBUSTERSQLResultsEx3_10/Story1?publish=yes&showOnboarding=true
-
-
