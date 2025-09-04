@@ -39,5 +39,5 @@ Interactive Tableau dashboards.
 Final presentation summarizing recommendations for Rockbuster’s online strategy.
 
 ## Link
-https://public.tableau.com/app/profile/shanza.khalid/viz/ROCKBUSTERSQLResultsEx3_10/Story1?publish=yes&showOnboarding=true
+https://public.tableau.com/app/profile/shanza.khalid/viz/RockbusterStealthDataAnalysis1/Story1?publish=yes
 
