@@ -39,5 +39,5 @@ Interactive Tableau dashboards.
 Final presentation summarizing recommendations for Rockbuster’s online strategy.
 
 ## Link
-[Rockbuster Stealth LLC](https://public.tableau.com/app/profile/shanza.khalid/viz/GlobalRetailSalesPerformance_17705031420210/GlobalRetailSalesPerformanceDashboard?publish=yes)
+[Rockbuster Stealth LLC](https://public.tableau.com/app/profile/shanza.khalid/viz/GlobalRetailSalesPerformance_17705031420210/Story1?publish=yes)
 
